@@ -14,9 +14,9 @@ module.exports = function (file, options) {
     var patternsToBeIgnored = config.ignores || [];
     var patternsToBeContained = config.contains || [];
 
-    ignoredFile = (helper.containsPatterns(file, patternsToBeIgnored) || ignored);
+    ignoredFile = (helper.containsPatterns(file, patternsToBeIgnored) || ignoredFile);
 
-    ignoredFile = (helper.doNotContainsPatterns(file, patternsToBeContained) || ignored);
+    ignoredFile = (helper.doNotContainsPatterns(file, patternsToBeContained) || ignoredFile);
 
     function write (buffer) {
         content += buffer;
