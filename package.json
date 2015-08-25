@@ -1,0 +1,32 @@
+{
+  "name": "coverageify",
+  "version": "0.0.7",
+  "description": "Browserify's transform for unit test coverage, using istanbul",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/troianoandres/coverageify.git"
+  },
+  "keywords": [
+    "Coverageify",
+    "Unit test code coverage",
+    "Transform",
+    "Browserify transform",
+    "Istanbul for browserify",
+    "coverage"
+  ],
+  "author": "Troiano Andres <troianoandres@gmail.com> (https://github.com/troianoandres)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/troianoandres/coverageify/issues"
+  },
+  "homepage": "https://github.com/troianoandres/coverageify",
+  "dependencies": {
+    "esprima": "^2.5.0",
+    "istanbul": "^0.3.18",
+    "through": "^2.3.8"
+  }
+}
