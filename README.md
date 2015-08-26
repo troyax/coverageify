@@ -75,6 +75,8 @@ var config = {
 };
 ```
 
+-   **To ignore files (that should not be covered) required by covered files you should add a comment with the following content `ignored by test coverage`
+
 ## Recommendations
 
 -   As seen is not needed to put `'coverage'` to the preprocessors array list, if that is done we have noticed some issues with trash data. 
@@ -87,4 +89,4 @@ var config = {
 
 ## Credits
 
-*This project was inspired by [istanbulify](https://github.com/fdecampredon/istanbulify) and [Rewireify](https://github.com/i-like-robots/rewireify).* 
+*This project was inspired by [istanbulify](https://github.com/fdecampredon/istanbulify) by François de Campredon* 
