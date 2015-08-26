@@ -89,4 +89,4 @@ var config = {
 
 ## Credits
 
-*This project was inspired by [istanbulify](https://github.com/fdecampredon/istanbulify) by François de Campredon* 
+*This project was inspired by [istanbulify](https://github.com/fdecampredon/istanbulify), developed by François de Campredon* 
