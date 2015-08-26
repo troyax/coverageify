@@ -28,7 +28,7 @@ module.exports = function (file, options) {
 
     function end () {
         var code = helper.getCode(content);
-        var ignoredInCoverage = helper.hasCommentWith(code, new RegExp('ignore +test +coverage'));
+        var ignoredInCoverage = helper.hasCommentWith(code, new RegExp('ignored +by +test +coverage'));
         var src = (ignoredInCoverage) ? content : instrument(file, content);
 
         this.queue(src);
