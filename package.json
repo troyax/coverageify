@@ -1,6 +1,6 @@
 {
   "name": "coverageify",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Browserify's transform for unit test coverage, using istanbul",
   "main": "index.js",
   "scripts": {
